@@ -1,0 +1,48 @@
+.Page {
+    width: 100%;
+    margin: unset;
+    padding: unset;
+    font-family: "Cairo", sans-serif;
+}
+
+.Page .first_section {
+    margin: unset;
+    padding: unset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    align-items: center;
+    padding: 10px;
+}
+
+.Page .first_section .input {
+    margin-left: 20%;
+    background-image: url(images/bk-header.webp);
+}
+
+.Page .first_section .input .Form {
+    text-align: center;
+}
+
+.Page .first_section .input .Form h1 {}
+
+.Page .first_section .input .Form .job {}
+
+.Page .first_section .input .Form .Select {}
+
+.Page .first_section .input .Form button {}
+
+.Page .first_section .info {
+    margin-right: 20%;
+    font-size: 45px;
+    direction: rtl;
+    font-weight: 700;
+}
+
+.Page .first_section .info p {
+    font-size: large;
+    color: gray
+}
